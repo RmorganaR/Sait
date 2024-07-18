@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <form action="" class="form">
+      <div class="form-head">
+        <a href="index.html" class="form-back">&lt</a>
+        <h1 class="form-title">Заявка на поступление</h1>
+      </div>
+      <div class="form-body">
+        <fieldset>
+            <legend>Ваш никнейм в реальной жизни :</legend>
+            <input type="text" class="form-input" placeholder="Имя" />
+            <input type="text" class="form-input" placeholder="Фамилия" />
+        </fieldset>
+        <div class="form-block">
+          <p class="form-label">Выберите пол</p>
+          <label for="men" class="form-label-row">
+            <input
+              type="radio"
+              class="form-but"
+              id="men"
+              name="gender"
+            />Мужской
+          </label>
+          <label for="women" class="form-label-row">
+            <input
+              type="radio"
+              class="form-but"
+              id="women"
+              name="gender"
+            />Женский
+          </label>
+        </div>
+        <div class="form-block">
+          <label for="age"
+            ><input type="checkbox" class="age" id="age" />Мне есть 18</label
+          >
+        </div>
+        <div class="form-block">
+          <label for="games" class="form-label-games">Ваша дисциплина</label>
+          <select name="" id="games" class="form-select">
+            <option value="CG:GO">CG:GO</option>
+            <option value="Dota2">Dota 2</option>
+            <option value="Apex">Apex Legends</option>
+          </select>
+        </div>
+        <textarea
+          name=""
+          id="form-inf"
+          placeholder="Дополнительная информация"
+        class="form-textarea"></textarea>
+        <button class="form-button">Отправить заявку</button>
+      </div>
+    </form>
+  </body>
+</html>
